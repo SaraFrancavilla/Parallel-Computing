@@ -1,5 +1,6 @@
 # Parallel-Computing
-# IntroPARCO_2024_H1
+
+# Reproducing IntroPARCO_2024_H1
 
 This project implements various optimizations for sequential and parallel algorithms using OpenMP and AVX2.
 
@@ -27,3 +28,8 @@ int main() {
     printf("OpenMP and AVX2 are available!\n");
     return 0;
 }
+
+Compile the test program using:
+
+```bash
+g++ -fopenmp -mavx2 test.c -o test
