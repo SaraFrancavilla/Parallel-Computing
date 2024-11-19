@@ -28,8 +28,9 @@ int main() {
     printf("OpenMP and AVX2 are available!\n");
     return 0;
 }
-
+```
 Compile the test program using:
 
 ```bash
 g++ -fopenmp -mavx2 test.c -o test
+```
